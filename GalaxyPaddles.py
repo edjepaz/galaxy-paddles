@@ -8,7 +8,7 @@ pygame.init()
 screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 screen_width, screen_height = screen.get_size()
 
-pygame.display.set_caption("Dad's Pong Game")
+pygame.display.set_caption("Galaxy Paddles")
 
 # Load background and ball images
 background_image = pygame.image.load("background.png")
@@ -75,7 +75,7 @@ def display_instructions():
 
     instructions_font = pygame.font.Font(None, 36)
     instructions_text = [
-        "Welcome to Dad's Pong Game!",
+        "Welcome to Galaxy Paddles!",
         "",
         "Player 1 (Left): Use W and S to move up and down",
         "Player 2 (Right): Use the arrow keys to move up and down",
